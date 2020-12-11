@@ -4,6 +4,11 @@
   <artifactId>test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <properties>
+    <sonar.projectKey>BlankHat1610_CRUD_Java_Servlet</sonar.projectKey>
+    <sonar.organization>blankhat1610</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
   <dependencies>
   	<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
 	<dependency>
