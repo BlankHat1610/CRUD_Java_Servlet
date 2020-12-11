@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #20252A;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.973);
+    font-weight: 600;
+    font-size: 22px;
+    position: fixed;
+    width: 100%;
+}
+
+.sidebar{
+    background: #292C34;
+    position: fixed;
+    padding-top: 30px;
+    top: 53.4px;
+    left: 0;
+    width: 250px;
+    height: 100%;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a{
+    display: block;
+    padding: 10px 40px;
+    color: rgba(255, 255, 255, 0.973);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.sidebar ul li a:hover{
+    background: #0BA0C2;
+}
+
+.sidebar ul li i{
+    padding-right: 10px;
+}
+
+.main_content {
+    position: fixed;
+    width: 82%;
+    top: 53px;
+    height: 100vh;
+    padding: 15px;
+    margin-left: 250px;
+    overflow: scroll;
+}
+
+.action_btn{
+	display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.973);
+    transition: 0.4s;
+}
+
+.insert{
+	background-color: #4CB050;
+    margin-bottom: 0.5rem;
+}
+
+.insert:hover {
+    background: #218324;
+    color: rgba(255, 255, 255, 0.973);
+    text-decoration: none;
+}
+
+.edit{
+    background-color: #4188BE;
+}
+
+.edit:hover{
+    background-color: #3376aa;
+    color: rgba(255, 255, 255, 0.973);
+    text-decoration: none;
+}
+
+.delete{
+    background-color: #DE4C35;
+}
+
+.delete:hover{
+    background-color: #ce402a;
+    color: rgba(255, 255, 255, 0.973);
+    text-decoration: none;
+}
+
